@@ -5,6 +5,7 @@
 20. 有效的括号       IsValidLeeCode20
 21. 合并两个有序链表    MergeTwoListsLeeCode21
 26. 删除排序数组中的重复项 RemoveDuplicatesLeeCode26
+38. 外观数列            CountAndSayLeeCode38
 41. 缺失的第一个正数    LostMinPositiveNumLeeCode41
 88. 合并两个有序数组    MergeNumsLeeCode88
 101.对称二叉树       BalanceTreeNodeLeecode101
