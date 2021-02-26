@@ -4,6 +4,7 @@
 3.无重复字符的最长子串    LengthOfLongestSubstringLeeCode3
 20. 有效的括号       IsValidLeeCode20
 21. 合并两个有序链表    MergeTwoListsLeeCode21
+23. 合并K个升序链表        MergeKLists23
 26. 删除排序数组中的重复项 RemoveDuplicatesLeeCode26
 38. 外观数列            CountAndSayLeeCode38
 41. 缺失的第一个正数    LostMinPositiveNumLeeCode41
