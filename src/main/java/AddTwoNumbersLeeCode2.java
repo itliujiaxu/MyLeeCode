@@ -1,9 +1,9 @@
 /*2. 两数相加
-给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。
+给你两个非空 的链表，表示两个非负的整数。它们每位数字都是按照逆序的方式存储的，并且每个节点只能存储一位数字。
 
 请你将两个数相加，并以相同形式返回一个表示和的链表。
 
-你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
+你可以假设除了数字 0 之外，这两个数都不会以 0开头。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/add-two-numbers
@@ -11,13 +11,12 @@
 public class AddTwoNumbersLeeCode2 {
 
     public static void main(String[] args) {
-        AddTwoNumbersLeeCode2 atnlc = new AddTwoNumbersLeeCode2();
         ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
         ListNode l2 = new ListNode(5,new ListNode(6,new ListNode(4)));
-        ListNode getNode = atnlc.addTwoNumbers(l1,l2);
+        ListNode getNode = addTwoNumbers(l1,l2);
     }
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2){
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2){
         int mid = 0;
         ListNode a = new ListNode(0);
         ListNode aa = a;
